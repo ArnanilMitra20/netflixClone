@@ -1,0 +1,108 @@
+body{
+    background-color: #141414;
+    font-family: "Nunito Sans", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    height:3rem;
+    width: 100vw;
+    /* background-color:#141414; */
+    background-color: transparent;
+    position:fixed;
+    justify-content: space-between;
+    z-index:100;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 2.4rem;
+    margin-left: 2rem;
+}
+.nav-options span{
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 400;
+}
+.nav-options{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.nav-right{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+}
+.avatar{
+    height: 1.5rem;
+    margin-top: -0.45rem;
+}
+.nav-options span:hover{
+    opacity: 0.5;
+}
+.main-content{
+    height: 500vh;
+    width: 100vw;
+    display: flex;
+}
+.bckgrnd-video{
+    height: 18%;
+    width: 100vw;
+    background-image: url(./assets/peacky\ blinders.jpg);
+    background-size:cover;
+    /* display: flex; */
+
+}
+.peaky-logo{
+    height: 10rem;
+    width:35rem;
+    margin-top: 13rem;
+    background-image: url(./assets/peaky_logo1.png);
+    background-size: cover;
+    margin-left: 2rem;
+}
+.peaky-info{
+   height: 5rem;
+   width: 35rem;
+   margin-left: 3rem;
+   /* margin-top: 0.2rem; */
+   font-size: 1.3rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.buttons{
+    margin-left: 3rem;
+    display: flex; 
+    margin-top: 1rem;  
+}
+button{
+    height: 2.7rem;
+    width:7rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    border: none;
+
+}
+.more-info{
+    height: 2.7rem;
+    width:9rem;
+    background-color:rgba(109, 109, 110, 0.7);
+    color: white;
+}
+.play:hover{
+    opacity: 0.7;
+}
+.more-info:hover{
+    background-color:rgba(109, 109, 110, 0.5);
+}
