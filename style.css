@@ -9,13 +9,13 @@ body{
 }
 .navbar{
     display: flex;
-    height:3rem;
+    height:4rem;
     width: 100vw;
-    /* background-color:#141414; */
-    background-color: transparent;
+    background-color:rgba(0, 0, 0, 0.4);
     position:fixed;
     justify-content: space-between;
     z-index:100;
+    align-items: center;
 }
 .nav-left{
     display: flex;
@@ -190,4 +190,45 @@ button{
 }
 .card:hover{
     cursor: pointer;
+}
+.footer{
+    height: 20rem;
+    border: 2px solid #141414;
+    margin-top: 75rem;
+    margin-left: 3rem;
+}
+.socials{
+    margin:7rem 0 0 28rem;
+    font-size: 1.5rem;
+}
+.socials i{
+    margin-right: 1.4rem;
+    cursor: pointer;
+}
+.footer-info{
+    margin:1rem 0 0 28rem;
+    display: flex;
+}
+.footer-infos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    align-items: start;
+    justify-content: start;
+}
+.footer-infos span{
+    margin-bottom: 0.8rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.border{
+    border:2px solid white;
+    padding: 0.5rem;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.border:hover{
+    text-decoration: none;
+    opacity: 1;
 }
